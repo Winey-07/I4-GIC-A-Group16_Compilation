@@ -8,8 +8,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         String sql = """
-          SELECT 'Hello FROM products;
-SELECT "Database FROM products;
+          SELECT @ FROM products;
             """;
 
         SQLScanner scanner = new SQLScanner(new StringReader(sql));
