@@ -22,7 +22,7 @@ SELECT "Database FROM products;
              while ((token = scanner.yylex()) != null) {
             System.out.println(token);
 
-            if(token.getType()== TokenType.ERROR){
+            if(token.getType()== TokenType.LEXICAL_ERROR){
                 hasError = true;
             }
         }

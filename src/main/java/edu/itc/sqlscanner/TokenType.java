@@ -18,7 +18,6 @@ public enum TokenType {
     SEMICOLON,
     LPAREN,
     RPAREN,
-    DOT,
+    DOT
 
-    ERROR
 }
